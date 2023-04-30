@@ -130,6 +130,7 @@ body {
     transition: .3s ease;
     border-top: 5px solid black;
     border-left: 5px solid black;
+    transition: .4s ease-out;
 }
 
 .container form a:hover {
