@@ -16,11 +16,14 @@
             <label for="email">Email</label>
             <input type="email" name="email" id="email" placeholder="exemplo@gmail.com">
             <label for="senha">Senha</label>
-            <input type="password" name="senha" id="senha" placeholder="digite sua Senha...">
+                <div class="passwordBox">
+                    <input type="password" id="senha" placeholder="digite sua Senha...">
+                    <div id="icon" onclick="showHide()"></div>
+                </div>
             <a href="#">Entrar</a>
         </form>
         <div class="link">
-            <p>Não tem cadastro? <a href="#">Cadastre-se</a></p>
+            <p>Não tem cadastro? <a href="#">Cadastre-se</a>
         </div>
     </div>
     <script src="script.js"></script>
